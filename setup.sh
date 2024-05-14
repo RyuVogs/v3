@@ -2,10 +2,10 @@
 clear
 echo -e "\033[33m# //====================================\e[0m"
 echo -e "\033[33m# // System Request:Debian 10/Ubuntu 20.04\e[0m"
-echo -e "\033[33m# // Author: Agung Tunneling\e[0m"
+echo -e "\033[33m# // Author: Ryu Tunneling\e[0m"
 echo -e "\033[33m# // Description: Xray Menu Management\e[0m"
-echo -e "\033[33m# // email: admin@agung.com\e[0m"
-echo -e "\033[33m# // telegram: t.me/agungvpnstore \e[0m"
+echo -e "\033[33m# // email: admin@ryuvogs.com\e[0m"
+echo -e "\033[33m# // telegram: t.me/ryuvogsvpn \e[0m"
 echo -e "\033[33m# //====================================\e[0m"
 sleep 1
 Green="\e[92;1m"
@@ -35,7 +35,7 @@ LOGO() {
     echo -e " ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───"
     echo -e " ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───"
     echo -e " ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───"
-    echo -e "    │    ${YELLOW}Copyright${FONT} (C)${GRAY}https://t.me/agungvpnstore     $NC   │"
+    echo -e "    │    ${YELLOW}Copyright${FONT} (C)${GRAY}https://t.me/ryuvogs     $NC   │"
     echo -e "    └───────────────────────────────────────────────┘"
     echo -e "         ${RED}Autoscript xray vpn lite (multi port)${FONT}    "
     echo -e "${RED}Make sure the internet is smooth when installing the script${FONT}"
@@ -56,8 +56,8 @@ clear;clear;clear
 echo -e "${RED}─────────────────────────────────────────────────${NC}"
 echo -e "  Welcome To Agung Tunneling Project Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Author : ${green}Agung  ${NC}${YELLOW}(${NC} ${green}Project ${NC}${YELLOW})${NC}"
-echo -e "       © Recode By Agung Tunneling ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "         Author : ${green} ryu  ${NC}${YELLOW}(${NC} ${green}Project ${NC}${YELLOW})${NC}"
+echo -e "       © Recode By ryuvogs Tunneling ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${RED}─────────────────────────────────────────────────${NC}"
 echo ""
 sleep 5
@@ -350,7 +350,7 @@ function notif_bot() {
 <code>IP VPS : </code><code>$ipsaya</code>
 <code>EXP.SC : </code><code>$EXPSC</code>
 <code>────────────────────</code>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🤖","url":"https://t.me/agungvpnstore"},{"text":"ɪɴꜱᴛᴀʟʟ🍭","url":"https://t.me/info_autoscript/2"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🤖","url":"https://t.me/ryuvogsvpn"},{"text":"ɪɴꜱᴛᴀʟʟ🍭","url":"https://t.me/info_autoscript/2"}]]}'
 
    curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
